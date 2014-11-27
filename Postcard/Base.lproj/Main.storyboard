@@ -107,6 +107,15 @@
                                     <action selector="sendMailButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7tg-U3-jKp"/>
                                 </connections>
                             </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UsX-bW-SF6">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="151" width="243" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -116,6 +125,7 @@
                                 <exclude reference="5Ft-BW-ndL"/>
                                 <exclude reference="CHQ-p7-ZFy"/>
                                 <exclude reference="ixW-8d-wca"/>
+                                <exclude reference="UsX-bW-SF6"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -125,6 +135,7 @@
                                 <include reference="5Ft-BW-ndL"/>
                                 <include reference="CHQ-p7-ZFy"/>
                                 <include reference="ixW-8d-wca"/>
+                                <include reference="UsX-bW-SF6"/>
                             </mask>
                         </variation>
                     </view>
@@ -132,6 +143,7 @@
                         <outlet property="enterMessageTF" destination="5Ft-BW-ndL" id="5Tb-Ld-HoG"/>
                         <outlet property="enterNameTF" destination="x72-5h-FFx" id="AVC-1A-9Cc"/>
                         <outlet property="messageLabel" destination="CHQ-p7-ZFy" id="vQR-jr-fCu"/>
+                        <outlet property="nameLabel" destination="UsX-bW-SF6" id="vQK-rz-Fkk"/>
                         <outlet property="sendMailButton" destination="ixW-8d-wca" id="Ojp-3a-Wul"/>
                     </connections>
                 </viewController>

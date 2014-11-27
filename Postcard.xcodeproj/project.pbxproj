@@ -13,6 +13,8 @@
 		040320ED1A24BCFB00173A6A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040320EC1A24BCFB00173A6A /* Images.xcassets */; };
 		040320F01A24BCFB00173A6A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040320EE1A24BCFB00173A6A /* LaunchScreen.xib */; };
 		040320FC1A24BCFC00173A6A /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040320FB1A24BCFC00173A6A /* PostcardTests.swift */; };
+		040321061A265B5E00173A6A /* Nature Portrait.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 040321051A265B5E00173A6A /* Nature Portrait.jpg */; };
+		040321081A265ECF00173A6A /* Nature Landscape.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 040321071A265ECF00173A6A /* Nature Landscape.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		040320F51A24BCFC00173A6A /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		040320FA1A24BCFC00173A6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		040320FB1A24BCFC00173A6A /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		040321051A265B5E00173A6A /* Nature Portrait.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Nature Portrait.jpg"; sourceTree = "<group>"; };
+		040321071A265ECF00173A6A /* Nature Landscape.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Nature Landscape.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		040320E31A24BCFB00173A6A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				040321071A265ECF00173A6A /* Nature Landscape.jpg */,
+				040321051A265B5E00173A6A /* Nature Portrait.jpg */,
 				040320E41A24BCFB00173A6A /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -194,6 +200,8 @@
 			files = (
 				040320EB1A24BCFB00173A6A /* Main.storyboard in Resources */,
 				040320F01A24BCFB00173A6A /* LaunchScreen.xib in Resources */,
+				040321081A265ECF00173A6A /* Nature Landscape.jpg in Resources */,
+				040321061A265B5E00173A6A /* Nature Portrait.jpg in Resources */,
 				040320ED1A24BCFB00173A6A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
